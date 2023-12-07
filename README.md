@@ -1,2 +1,3 @@
-# colosovsp
-colosovo single page
+# colosovo
+
+colosovo single page: https://ruvamd.github.io/colosovo/
