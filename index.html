@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>colosovo</title>
+    <title>колосово</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <style>
         /* Add some basic styling for the image container */
         .header-image-container {
-            max-width: 100%;
+            max-width: 100vw;
             overflow: hidden;
             text-align: center;
         }
 
         /* Set the image dimensions */
         .header-image-container img {
-            width: 1273px;
+            width: 100%;
             height: 150px;
             object-fit: cover;  /* Maintain aspect ratio and cover the container */
         }
@@ -56,13 +56,11 @@
 
                 <!--currency-->
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        currency
+                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        курс валют
                     </button>
-                    <ul class="dropdown-menu" style="">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.agroprombank.com/info/rates.html" target="_blank">агропромбанк</a></li>
                     </ul>
                 </div>
                 
@@ -71,10 +69,10 @@
                     <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         история
                     </button>
-                    <ul class="dropdown-menu" style="">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://grig-rsnd.idknet.com/test/gorod-i-rajon/istoriya-p-kolosovo" target="_blank">совет народных депутатов</a></li>
+                    <li><a class="dropdown-item" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%BE_(%D0%9F%D1%80%D0%B8%D0%B4%D0%BD%D0%B5%D1%81%D1%82%D1%80%D0%BE%D0%B2%D1%8C%D0%B5)" target="_blank">википедия</a></li>
+                    <li><a class="dropdown-item" href="https://history.gospmr.org/selo-kolosovo/" target="_blank">приднестровский исторический портал</a></li>
                     </ul>
                 </div>
 
@@ -134,10 +132,68 @@
                     </ul>
                 </div>
 
+                <!--videos-->
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        видео
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=Z5zIS8sdbcQ" target="_blank">в путь! (первый приднестровский)</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=11G68Dw1Gps&pp=ygUQ0LrQvtC70L7RgdC-0LLQvg%3D%3D" target="_blank">тсв (в колосово отпраздновали ивана купалу)</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=wqiVSDzifh0&list=PLQTkn83T0u7Oxy4FbyLuQTnoe6Gg9_hDq&index=7&t=548s&pp=gAQBiAQB" target="_blank">ставок</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=v8sglj-4gWI&list=PLQTkn83T0u7Oxy4FbyLuQTnoe6Gg9_hDq&index=6&t=209s&pp=gAQBiAQB" target="_blank">на велике 🚴 по селу</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=-42Q4CbBVdo&list=PLQTkn83T0u7Oxy4FbyLuQTnoe6Gg9_hDq&index=4&pp=gAQBiAQB" target="_blank">центральная дорога</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=E0jyRba1wZo&list=PLQTkn83T0u7Oxy4FbyLuQTnoe6Gg9_hDq&index=5&pp=gAQBiAQB" target="_blank">вид сверху 1</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=fnwGRGut54Q&list=PLQTkn83T0u7Oxy4FbyLuQTnoe6Gg9_hDq&index=3&pp=gAQBiAQB" target="_blank">вид сверху 2</a></li>
+
+                    </ul>
+                </div>
+
+                <!--photos-->
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        фото
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="" target="_blank">скоро добавлю</a></li>
+                    <li><a class="dropdown-item" href="" target="_blank">скоро добавлю</a></li>
+                    
+                    </ul>
+                </div>
+
+                <!--map-->
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        карты
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://yandex.ru/maps/geo/1508541152/?ll=29.579322%2C47.329108&z=13.95" target="_blank">яндекс карта</a></li>
+                    <li><a class="dropdown-item" href="https://www.google.com/maps/place/Colosova,+Moldova/@47.3294978,29.5449183,5097m/data=!3m2!1e3!4b1!4m6!3m5!1s0x40c94bc3ed435f57:0x5731dfd63b53c434!8m2!3d47.3346774!4d29.5659422!16s%2Fg%2F122np9pq?entry=ttu" target="_blank">гугл карта</a></li>
+                    </ul>
+                </div>
+
+                <!--good to know list-->
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        полезно знать
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="static/list.html" target="_blank">список</a></li>
+                    </ul>
+                </div>
+
             </div>
     
         </div>
     </nav>
+
+<!-- Add a standard footer -->
+<footer class="footer mt-auto py-3 bg-light fixed-bottom w-100">
+    <div class="container d-flex justify-content-center">
+        <span class="text-muted">2023 колосово</span>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
